@@ -1,16 +1,109 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  Mi Primera App React
 
-Currently, two official plugins are available:
+Proyecto de aprendizaje desarrollado como parte del programa **Análisis y Desarrollo de Software** en el SENA.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+##   Descripción
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Aplicación de perfil personal construida con React y Vite. Este proyecto tiene como objetivo practicar los fundamentos de React, incluyendo componentes, JSX y el manejo del DOM virtual.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##   Conceptos Clave Aprendidos
+
+### ¿Qué es React?
+Es una biblioteca de JavaScript creada por Facebook para construir interfaces de usuario de forma rápida y organizada.
+
+### ¿Qué es una SPA?
+Una **Single Page Application** es una aplicación web que carga una sola página y va actualizando el contenido sin recargar todo el sitio.
+
+### ¿Qué ventaja tiene el Virtual DOM?
+El Virtual DOM permite que React haga cambios en la interfaz de manera eficiente, actualizando solo lo necesario y mejorando el rendimiento.
+
+### ¿Qué es JSX?
+Es una sintaxis parecida a HTML que se usa dentro de JavaScript para escribir la estructura de los componentes de React.
+
+### ¿Qué es un componente?
+Es una pieza reutilizable de código en React que representa una parte de la interfaz (por ejemplo, un botón, una tarjeta o un formulario).
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+| Tecnología | Descripción |
+|------------|-------------|
+| ⚛️ React | Biblioteca principal para la UI |
+| ⚡ Vite | Herramienta de construcción y servidor de desarrollo |
+| 🎨 CSS | Estilos de la aplicación |
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+mi-primera-app/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## ⚙️ Instalación y Uso
+
+Sigue estos pasos para correr el proyecto en tu máquina:
+
+### 1. Clona el repositorio
+```bash
+git clone https://github.com/tu-usuario/mi-primera-app.git
+```
+
+### 2. Entra a la carpeta del proyecto
+```bash
+cd mi-primera-app
+```
+
+### 3. Instala las dependencias
+```bash
+npm install
+```
+
+### 4. Inicia el servidor de desarrollo
+```bash
+npm run dev
+```
+
+### 5. Abre en el navegador
+```
+http://localhost:5173
+```
+
+---
+
+##   Autor
+
+**Julian Esneyder Machado Garzón**
+Aprendiz — Análisis y Desarrollo de Software · SENA
+
+---
+
+##   Instructor
+
+**Cristian González**
+SENA — Servicio Nacional de Aprendizaje
+
+---
+
+##   Licencia
+
+Este proyecto fue desarrollado con fines educativos para el programa de formación del SENA.
