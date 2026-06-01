@@ -88,6 +88,7 @@ npm run dev
 http://localhost:5173
 ```
 ### Captura <img width="1568" height="858" alt="Captura de pantalla 2026" src="https://github.com/user-attachments/assets/821e8667-210c-4913-bfb6-715852ba677d" />
+### Captura01 <img width="1920" height="1140" alt="Captura de pantalla 2026-01" src="https://github.com/user-attachments/assets/fff2f3e4-8c33-43dc-921e-e6e1c470041c" />
 
 ---
 
